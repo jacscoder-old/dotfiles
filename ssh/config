@@ -1,0 +1,23 @@
+# Title
+# Host github.com
+# HostName github.com
+# PreferredAuthentications publickey
+# AddKeysToAgent yes
+# UseKeychain yes
+# IdentityFile ~/.ssh/id_rsa
+
+# jacsturing
+Host jacsturing.github.com
+HostName github.com
+PreferredAuthentications publickey
+AddKeysToAgent yes
+UseKeychain yes
+IdentityFile ~/.ssh/id_rsa_jacsturing
+
+# jacscoder
+Host jacscoder.github.com
+HostName github.com
+PreferredAuthentications publickey
+AddKeysToAgent yes
+UseKeychain yes
+IdentityFile ~/.ssh/id_rsa_jacscoder
